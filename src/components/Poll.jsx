@@ -60,7 +60,7 @@ const Poll = ({ handleChange, clientData }) => {
               />
               <label
                 htmlFor="rentingOut"
-                className=" pollButton mt-3 md:mt-0 text-orange label-checked:bg-orange label-checked:text-white"
+                className=" pollButton text-orange label-checked:bg-orange label-checked:text-white"
               >
                 Renting out my Items
               </label>
@@ -71,7 +71,7 @@ const Poll = ({ handleChange, clientData }) => {
         <div
           className={`${
             !poll ? "hidden" : "block"
-          }  mt-6 md:mt-10 flex items-end flex-col`}
+          }  md:mt-10 flex items-end flex-col`}
         >
           <div className="progress">
             <div className="progress_indicator ">

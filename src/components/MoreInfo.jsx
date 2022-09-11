@@ -59,7 +59,9 @@ const MoreInfo = () => {
   // function is checking if the form have been submmitted
   const submittion = () => {
     setSubmited(false);
-    submited ? navigate("/") : null;
+    window.location.replace("https://www.rentout.app/");
+    // submited ? navigate("") : null;
+    // <Redirect path="https://www.rentout.app/" />;
   };
 
   // form component functions
